@@ -11,7 +11,7 @@ def select_all_users(cursor):
             user_list.append({
                 "id": row[0],
                 "username": row[1],
-                "is_admin": row[2]
+                "is_admin": row[3]
             })
         if not user_list:
             print("No records found in the 'users' table.")
