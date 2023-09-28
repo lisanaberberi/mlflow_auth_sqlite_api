@@ -19,9 +19,9 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 ```
 ## Add your files
-* [create_user.py](https://git.scc.kit.edu/m-team/ai/mlflow_auth/-/blob/main/create_user.py): 
-Contains methods to create new users, update passwords, update standard users as admin and finally delete existing users are written
-* [user_experiment_permission.py](https://git.scc.kit.edu/m-team/ai/mlflow_auth/-/blob/main/user_experiment_permission.py): Contain Methods to create new permissions to users for a given experiment, update existing experiment permission and delete them
+* [main.py](https://github.com/lisanaberberi/mlflow_auth_sqlite_api/blob/main/main.py): 
+Contains all the API endpoints
+
 
 
 
